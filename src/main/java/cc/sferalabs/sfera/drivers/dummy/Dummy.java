@@ -5,6 +5,13 @@ import cc.sferalabs.sfera.drivers.Driver;
 import cc.sferalabs.sfera.drivers.dummy.events.CounterDummyEvent;
 import cc.sferalabs.sfera.events.Bus;
 
+/**
+ *
+ * @author Giampiero Baggiani
+ *
+ * @version 1.0.0
+ *
+ */
 public class Dummy extends Driver {
 
 	private long counter;
