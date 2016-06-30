@@ -41,11 +41,6 @@ import cc.sferalabs.sfera.events.NumberEvent;
  */
 public class CounterDummyEvent extends NumberEvent implements DummyEvent {
 
-	/**
-	 * 
-	 * @param source
-	 * @param value
-	 */
 	public CounterDummyEvent(Node source, Number value) {
 		super(source, "counter", value);
 	}
